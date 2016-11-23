@@ -2,8 +2,8 @@
 var debug = require('debug')('loopback:connector:flexirest');
 var RestConnector = require('loopback-connector-rest');
 var path = require('path');
-var walk = require('./lib/walk');
 var url = require('url');
+var walk = require('./lib/walk');
 var transformerLib = require('./lib/transformer');
 
 /**
